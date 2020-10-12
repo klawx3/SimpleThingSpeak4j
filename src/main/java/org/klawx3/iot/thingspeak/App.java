@@ -11,7 +11,7 @@ import org.klawx3.iot.thingspeak.model.FeedModel;
  */
 public class App {
     public static void main( String[] args ){
-        ThingSpeakRest ts = new ThingSpeakRest("348240","CIMLIVXPCNQT2QOQ","194YK29J566NMS9V");
+        ThingSpeakRest ts = new ThingSpeakRest("340","C2QOQ","196NMS9V");
         FeedModel model = new FeedModel();
         model.setField2("123");
         int serverResponse = ts.setChannelFeed(model);
